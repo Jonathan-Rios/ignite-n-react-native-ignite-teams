@@ -84,6 +84,41 @@ $ expo install
 $ expo start
 ```
 
+
+## 📓 Anotações pessoais
+
+<h3>Comandos utilizados</h3>
+
+```bash
+  ➜ expo init igniteteams --npm
+
+  Migrate to using:
+    › npx create-expo-app --template
+    ✔ Choose a template: › blank (TypeScript)  same as blank but with TypeScript configuration
+
+  ➜ npm install -D babel-plugin-module-resolver
+  # Feito isso realizar a configuração dos alias nos arquivos ( babel.config.js e tsconfig.json)
+
+  ➜ npm install styled-components
+  ➜ npm install --save-dev @types/styled-components @types/styled-components-react-native
+
+  # Como instalar fontes pelo Expo
+  ➜ expo install expo-font @expo-google-fonts/roboto
+ 
+  ➜ npm install --save phosphor-react-native
+  
+  #Deu erro na instalação dos ícones, depois do install react-native-svg funcionou.
+  ➜ expo install react-native-svg   
+
+  #Pare a aplicação e feche os apps no emulador (essa dependência mexe com o código nativo, pode gerar dores de cabeça)
+  ➜ npm install @react-navigation/native
+  ➜ expo install react-native-screens react-native-safe-area-context
+  ➜ npm install @react-navigation/native-stack
+￼
+  #Instalar o async-storage
+  ➜ expo install @react-native-async-storage/async-storage
+```
+
 ## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
