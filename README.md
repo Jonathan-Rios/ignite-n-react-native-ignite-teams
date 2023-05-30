@@ -84,6 +84,12 @@ $ expo install
 $ expo start
 ```
 
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
+
+<br />
+
 
 ## 📓 Anotações pessoais
 
@@ -118,12 +124,6 @@ $ expo start
   #Instalar o async-storage
   ➜ expo install @react-native-async-storage/async-storage
 ```
-
-## 📝 License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
-
-<br />
  
 ---
 <br />
