@@ -1,0 +1,26 @@
+-> expo init igniteteams --npm
+
+    Migrate to using:
+      › npx create-expo-app --template
+      ✔ Choose a template: › blank (TypeScript)  same as blank but with TypeScript configuration
+
+-> npm install -D babel-plugin-module-resolver
+  // Feito isso realizar a configuração dos alias nos arquivos ( babel.config.js e tsconfig.json)
+
+-> npm install styled-components
+-> npm install --save-dev @types/styled-components @types/styled-components-react-native
+
+
+# Como instalar fontes pelo Expo
+-> expo install expo-font @expo-google-fonts/roboto
+ 
+-> npm install --save phosphor-react-native
+-> expo install react-native-svg   //Deu erro na instalação dos ícones, depois desse install funcionou.
+
+// Pare a aplicação e feche os apps no emulador (essa dependência mexe com o codigo nativo, pode gerar dores de cabeça)
+npm install @react-navigation/native
+expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+￼
+// Instalar o async-storage
+expo install @react-native-async-storage/async-storage
